@@ -2,6 +2,7 @@
 {
     public interface IStateManager
     {
-        string RpcName { get; set; }
+        public string RpcName { get; set; }
+        public StateDTO State { get; set; }
     }
 }

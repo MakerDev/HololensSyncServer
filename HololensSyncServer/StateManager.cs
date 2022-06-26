@@ -2,6 +2,8 @@
 {
     public class StateManager : IStateManager
     {
-        public string RpcName { get; set; } = null;
+        //For backward comp.
+        public string RpcName { get; set; } = "";
+        public StateDTO State { get; set; } = new StateDTO();
     }
 }
